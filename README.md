@@ -1,5 +1,5 @@
 # JsWebView
-PSWebView，目前集成了团贷网APP通用的基础设置，对H5页面“input”标签的支持，对视频全屏播放的支持，以及优化了基于JSBridge的js与Native的通信，
+PSWebView，对H5页面“input”标签的支持，对视频全屏播放的支持，以及优化了基于JSBridge的js与Native的通信，
 具体使用如下：  <br/>
 ## WebView:  <br/>
 - WebView采用继承模式拓展原有webview的功能，目前继承关系如下。  <br/>
