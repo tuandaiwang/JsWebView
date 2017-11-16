@@ -1,5 +1,11 @@
-# Usage
+# JsWebView
+PSWebView，对H5页面“input”标签的支持，对视频全屏播放的支持，以及优化了基于JSBridge的js与Native的通信。
 
+# Download
+
+---
+
+ Grab via Maven:
 
 ```
 <dependency>
@@ -9,12 +15,18 @@
   <type>pom</type>
 </dependency>
 ```
+or Gradle:
+
 ```
  dependencies  { 
         compile 'com.paison.lib:jswebview:1.0.0' 
     }
 ```
+ ---
+ 
 ## Example Use it in Android
+
+###加载视频
 
 ```
 mTdAdvertisingWebView = new PsVideoEnabledWebView(this);
@@ -51,10 +63,7 @@ mTdAdvertisingWebView = new PsVideoEnabledWebView(this);
         });
         mTdAdvertisingWebView.loadUrl("https://image.baidu.com/search/wiseindex?tn=wiseindex&wiseps=1");
 ```
-# JsWebView
-PSWebView，对H5页面“input”标签的支持，对视频全屏播放的支持，以及优化了基于JSBridge的js与Native的通信，
 
-具体使用如下：  <br/>
 ## WebView:  <br/>
 - WebView采用继承模式拓展原有webview的功能，目前继承关系如下。  <br/>
 - PsVideoEnabledWebView -> PsSettingWebView -> PsJsBridgeWebView -> BridgeWebView -> WebView;
@@ -79,3 +88,20 @@ PSWebView，对H5页面“input”标签的支持，对视频全屏播放的支�
 
 上述WebView和WebChromeClient可以根据实际需求自由搭配使用！<br/>
  
+ ## LICENSE
+ 
+ ---
+ ```
+ Licensed under the Apache License, Version 2.0 (the "License")And partion of MIT;
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+ 
+        http://www.apache.org/licenses/LICENSE-2.0
+ 
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+ 
+ ```
