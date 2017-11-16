@@ -61,7 +61,7 @@ mTdAdvertisingWebView = new PsVideoEnabledWebView(this);
                 //设置加载度
             }
         });
-        mTdAdvertisingWebView.loadUrl("https://image.baidu.com/search/wiseindex?tn=wiseindex&wiseps=1");
+        mTdAdvertisingWebView.loadUrl("https://v.qq.com/x/cover/6t49nzhhbg132je.html");
 ```
 
 ## WebView:  <br/>
